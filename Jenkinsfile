@@ -207,7 +207,7 @@ pipeline {
 
       agent {
 
-        	image 'docker'
+        docker { image 'docker' }
 
       }
 
