@@ -223,7 +223,7 @@ pipeline {
 
           steps {
 
-            sh 'wget -P /home/jenkins/docker/tomcat_app http://10.10.20.31:8081/repository/hello_livrable/dernier_rondoudou_fiable.war'
+            sh 'wget --user=admin --password=lotfi -P /home/jenkins/docker/tomcat_app http://10.10.20.31:8081/repository/hello_livrable/dernier_rondoudou_fiable.war'
 
             sh 'mv /home/jenkins/docker/tomcat_app/dernier_rondoudou_fiable.war /home/jenkins/docker/tomcat_app/rondoudou.war'
 
