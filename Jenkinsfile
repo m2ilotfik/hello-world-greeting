@@ -211,16 +211,17 @@ pipeline {
 
       }
 
-    stages {
-          stage {
+
+          
+
+
+      stages {
+        
+          stage ('tesst') {
               steps {
                 sh 'echo "test" '
               }
             }
-      }
-
-      stages {
-
         
 
         stage('Téléchargement du binaire') {
