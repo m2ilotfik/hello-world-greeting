@@ -1,52 +1,3 @@
-Skip to content
-
-
-Why GitHub?  
-Enterprise 
-Explore  
-Marketplace 
-Pricing  
-  
-Sign in 
-Sign up 
-
-
-
-
-ilkilab 
-/
-hello-world-greeting 
-Watch 
-0 
-Star 
-0 
-Fork 
-7 
-Code 
-Issues 0 
-Pull requests 0 
-Actions 
-Projects 0 
-Security 
-Insights 
-
-Dismiss 
-Join GitHub today
-GitHub is home to over 40 million developers working together to host and review code, manage projects, and build software together.
-Sign up 
-Branch: master 
-hello-world-greeting/Jenkinsfile 
-Find file 
-Copy path 
- Jenkins first commit 
-eea67f6 on 4 Oct 2018 
-0 contributors 
-142 lines (90 sloc) 3.32 KB 
-Raw
-Blame
-History
-
-
 pipeline {
 
   
@@ -330,6 +281,3 @@ pipeline {
   }
 
 }
-
-
-
