@@ -211,10 +211,12 @@ pipeline {
 
       }
 
-      stage ('tesst') {
-        steps {
-          sh 'echo "test" '
-        }
+    stages {
+          stage {
+              steps {
+                sh 'echo "test" '
+              }
+            }
       }
 
       stages {
