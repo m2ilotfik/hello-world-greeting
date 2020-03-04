@@ -207,7 +207,7 @@ pipeline {
 
       agent {
 
-        label 'agent_docker'
+        	image 'docker'
 
       }
 
