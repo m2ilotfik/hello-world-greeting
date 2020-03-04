@@ -207,7 +207,7 @@ pipeline {
 
       agent {
 
-        docker { image 'docker' }
+        docker { image 'docker:latest' }
 
       }
 
