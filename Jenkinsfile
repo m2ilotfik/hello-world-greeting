@@ -247,7 +247,7 @@ pipeline {
       
 
           steps {
-            
+            sh 'apt-get update'
             sh 'apt-get install docker.io -y'
             sh 'wget --user=admin --password=lotfi -P /home/jenkins/docker/tomcat_app https://raw.githubusercontent.com/m2ilotfik/hello-world-greeting/master/docker/tomcat_app/Dockerfile'
             sh 'docker build -t tomcat_app /home/jenkins/docker/tomcat_app'
