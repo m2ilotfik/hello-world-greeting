@@ -265,15 +265,15 @@ pipeline {
 
           steps {
 
-            sh "docker tag tomcat_app reeban/tomcat_app:${BUILD_NUMBER}"
+            sh "docker tag tomcat_app matrix1233/tomcat_app:${BUILD_NUMBER}"
 
-            sh 'docker tag tomcat_app reeban/tomcat_app'
+            sh 'docker tag tomcat_app matrix1233/tomcat_app'
 
             sh 'docker login -u matrix1233 -p 123456123456'
 
-            sh "docker push reeban/tomcat_app:${BUILD_NUMBER}"
+            sh "docker push matrix1233/tomcat_app:${BUILD_NUMBER}"
 
-            sh 'docker push reeban/tomcat_app'
+            sh 'docker push matrix1233/tomcat_app'
 
           }
 
