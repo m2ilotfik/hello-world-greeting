@@ -247,8 +247,7 @@ pipeline {
       
 
           steps {
-            sh 'apt-get update'
-            sh 'apt-get install docker.io -y'
+           
             sh 'sudo docker build -t tomcat_app https://raw.githubusercontent.com/m2ilotfik/hello-world-greeting/master/docker/tomcat_app/Dockerfile'
     
 
