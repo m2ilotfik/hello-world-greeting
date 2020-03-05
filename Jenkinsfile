@@ -248,7 +248,7 @@ pipeline {
 
           steps {
            
-            sh 'docker build -t tomcat_app /home/jenkins/docker/tomcat_app'
+            sh 'docker build -t tomcat_app https://raw.githubusercontent.com/m2ilotfik/hello-world-greeting/master/docker/tomcat_app/Dockerfile'
     
 
           }
